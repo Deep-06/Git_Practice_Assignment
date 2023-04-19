@@ -1,4 +1,4 @@
-//pallindrome
+//this is palindrome program
 
 let s1="madam";
 let bag="";
