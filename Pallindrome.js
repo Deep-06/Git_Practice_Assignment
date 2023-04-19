@@ -2,7 +2,7 @@
 
 let s1="madam";
 let bag="";
-for(i=s1.length;i>=0;--i){
+for(i=s1.length-1;i>=0;i--){
   bag+=s1[i];
 }
 if(bag==s1){

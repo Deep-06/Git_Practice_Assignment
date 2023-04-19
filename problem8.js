@@ -1,12 +1,13 @@
 //prime no. from 1-10
-let count=0;
-for(let i=1; i<=10; i++){
-  for(let j=1;j<=10;j++){
-    if(i%j===0){
-    ++count;
-  }
-  }
+let num = 5;
+let count = 0;
+for(let i = 2; i < num; i++){
+    if(num % i === 0){
+    count++;
+    }
 }
-if(count==2){
-  console.log(i);
+if(count > 0){
+  console.log(num, "is not a prime number");
+}else{
+  console.log(num, "is a prime number");
 }
