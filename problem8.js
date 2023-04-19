@@ -1,13 +1,13 @@
 //Write a program to find prime numbers
-let num = 5;
+let isPrime = 7;
 let count = 0;
-for(let i = 2; i < num; i++){
-    if(num % i === 0){
+for(let i = 2; i < isPrime; i++){
+    if(isPrime % i === 0){
     count++;
     }
 }
 if(count > 0){
-  console.log(num, "is not a prime number");
+  console.log(isPrime, "Not Prime");
 }else{
-  console.log(num, "is a prime number");
+  console.log(isPrime, "Prime");
 }
